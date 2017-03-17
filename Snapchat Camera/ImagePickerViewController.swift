@@ -55,6 +55,8 @@ class ImagePickerViewController: UIViewController {
         if let squirrelImage = UIImage(named: "squirrel") {
             selectedImage = squirrelImage
             toggleUI(isInPreviewMode: true)
+            
+            
         }
     }
     
